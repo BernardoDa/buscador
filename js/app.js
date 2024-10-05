@@ -132,7 +132,8 @@ function noResultado() {
 
   const noResultado = document.createElement("DIV");
   noResultado.classList.add("alerta", "error");
-  noResultado.textContent = "No hay resultado";
+  noResultado.textContent =
+    "No hay resultado, intenta con otros términos de búsqueda";
   resultado.appendChild(noResultado);
 }
 
